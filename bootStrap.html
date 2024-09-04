@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <script src="bootStrap.js"></script>
+  <link rel="stylesheet" href="bootStrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">37MEDIA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutUs">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true" href="#album">Album</a>
+          <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section -->
+  <section class="hero" style="margin-bottom: 50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-6">Welcome To</h1>
+          <h1 class="display-1">37<span style="font-style: italic;">MEDIA</span></h1>
+          <p class="lead">Effigiem aeternam facere</p>
+          <a href="#aboutUs" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg" style="background-image: url('nmax ganteng.jpg');"></div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <!-- About Us -->
+  <div class="container" id="aboutUs">
+    <div class="row">
+      <div class="col">
+        <figure class="figure" id="aboutUs">
+          <img src="bayuKokonut.jpeg" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption, text-center">27-7-2008(myBirthdayYey)</figcaption>
+        </figure>
+      </div>
+      <div class="col">
+        <h1 class="text-center mx-1000 my-50 display-1">What's 3<span style="font-style: italic;">7MEDIA</span>?</h1>
+        <br>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nemo vel quaerat! Blanditiis optio totam sed quo saepe aut iusto excepturi, pariatur laborum dolorem eos numquam laudantium nesciunt quis veniam.</h4>
+        <br>
+        <br>
+        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, corrupti nesciunt, minus rem ex mollitia blanditiis vitae id, debitis consequatur quibusdam deserunt molestias tempore consectetur dignissimos accusantium? Dolorem, voluptatem velit!</h4>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- Our Album -->
+  <div class="container" id="album">
+    <h2 class=" text-center display-3 text-decoration-underline">Our Album</h2>
+    <div class="row">
+      <div class="col mt-5">
+        <img src="airBatu.jpg" width="600" height="400">
+      </div>
+      <div class="col mt-5">
+        <img src="juanVersiGanteng.jpg" width="600" height="400">
+      </div>
+      <div class=" col mt-5">
+        <img src="botol.jpg" width="600" height="400">
+      </div>
+      <div class="col mt-5">
+        <img src="selang.jpg" width="600" height="400">
+      </div>
+      <div class=" col mt-5">
+        <img src="piringGantung.jpg" width="600" height="400">
+      </div>
+      <div class="col mt-5">
+        <img src="bananaRoll.jpg" width="600" height="400">
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- katalog -->
+    <h1 class="display-3 ml-3 text-decoration-underline" id="pricing">Price Range</h1>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col mx-auto">
+          <div class="card" style="width: 18rem; height: 600px;" id="katalog">
+            <img src="bayuKokonut.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title bs-secondary-color-rgb"><span style="color: peru; font-weight: 700;">Reguler</span></h5>
+              <p class="card-text">Dalam Paket Reguler, akan dibagi kedalam 2 kategori yakni outdoor dan indoor. Untuk outdoor anda akan mendapatkan 2 kameramen dan 1 assisten. Dan untuk indoor anda dapat menggunakan studio kami selama 2 jam. </p>
+              <a href="payment.html" class="btn btn-primary">Call Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mx-auto">
+          <div class="card" style="width: 18rem; height: 600px;" id="katalog">
+            <img src="bayuKokonut.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title -bs-secondary-color-rgb"><span style="color: silver; font-weight: 700;">Prime</span></h5>
+              <p class="card-text">Dalam Paket Prime, akan dibagi kedalam 2 kategori yakni outdoor dan indoor. Untuk outdoor anda akan mendapatkan 5 kameramen dan 2 assisten. Dan untuk indoor anda dapat menggunakan studio kami selama 4 jam.</p>
+              <a href="payment.html" class="btn btn-primary">Call Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mx-auto">
+          <div class="card" style="width: 18rem; height: 600px;" id="katalog">
+            <img src="bayuKokonut.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><span style="color: rgb(225, 191, 0); font-weight: 700; border: 10px;">Professional</span></h5>
+              <p class="card-text">Dalam Paket Professional, akan dibagi kedalam 2 kategori yakni outdoor dan indoor. Untuk outdoor anda akan mendapatkan 10 kameramen dan 5 assisten. Dan untuk indoor anda dapat menggunakan studio kami selama 6 jam.</p>
+              <a href="payment.html" class="btn btn-primary">Call Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mx-auto">
+          <div class="card" style="width: 18rem; height: 600px;" id="katalog">
+            <img src="bayuKokonut.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title -bs-secondary-color-rgb"><span style="color: rgb(15, 174, 174); font-weight: 700;">Ultimate</span></h5>
+              <p class="card-text">Untuk Paket Ultimate Spesial Seluruh Armada Kameramen dan Asisten Serta Untuk Indoor Bebas Pakai Studio 24 Jam.</p>
+              <a href="payment.html" class="btn btn-primary">Meet Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- contact us -->
+    <div class="container">
+      <h1 class="display-3">Tell Us More</h1>
+      <br>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="nama" placeholder="Name">
+        <label for="floatingPassword">Nama</label>
+        <div class="form-floating">
+          <input type="text" class="form-control" id="email" placeholder="email @someoneexample.com">
+          <label for="floatingPassword">Email</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+            style="height: 100px"></textarea>
+          <label for="floatingTextarea2">Pesan</label>
+        </div>
+        <button type="button" class="btn btn-outline-dark ">Submit</button>
+      </div>
+      <br>
+      <br>
+      <br>
+
+      <!-- footer  -->
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Tentang Kami</h4>
+              <p>37MEDIA, in partnership with Mampiro_Bali & MrBadai</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Link Terkait</h4>
+              <ul style="list-style-type: none;">
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Our Instagram</a></li>
+                <li><a href="https://www.instagram.com/badaimalika12?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">ig@badaimalika12</a></li>
+                <li><a href="#">ig@Mampiro_Bali</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Kontak Kami</h4>
+              <ul style="list-style-type: none;">
+                <li>Alamat: Jl. Raya Kerobokan Kaja No 72, Badung, Bali</li>
+                <li>Telepon: 0812-3456-7890</li>
+                <li>Email: wijanugraha72@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">&copy; 2024 Example.com. Hak cipta dilindungi.</div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
